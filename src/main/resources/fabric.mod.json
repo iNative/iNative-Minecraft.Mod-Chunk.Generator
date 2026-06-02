@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "opencore",
+  "version": "${version}",
+  "name": "OpenCore Dimension",
+  "description": "Adds the OpenCore dimension: Overworld terrain with The End sky, fog, and ambience.",
+  "authors": ["OpenCoreDev"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.opencore.mod.OpenCoreMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
